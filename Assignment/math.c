@@ -35,48 +35,48 @@
 /****************************** test *******************************/ 
  int main(void){   
 
- //Test for Addition
-     math(60,13,'+');      
+//Test for Addition
+     math(70,10,'+');      
      printf("The result is- %d \n",result );
   
   //Test for Subtraction
-     math(60,13,'-');       
+     math(40,17,'-');       
      printf("The result is- %d\n",result );
   
   //Test for Multiplication  
-     math(60,13,'*');
+     math(3,2,'*');
      printf("The result is- %d\n",result );
   
    //Test for division 
-     math(60,13,'/');      
+     math(32,4,'/');      
      printf("The result is- %d\n",result );
   
   //Test for Bitwise AND
-     math(60,13,'&');
+     math(2,0,'&');
      printf("The result is- %d\n",result );
   
   //Test for Bitwise OR
-     math(60,13,'|');
+     math(4,1,'|');
      printf("The result is- %d\n",result );
   
   //Test for Bitwise OR     
-     math(60,13,'%');
+     math(43,8,'%');
      printf("The result is- %d\n",result );
    
   //Test for Shift Left
-     math(60,1,'<');
+     math(6,1,'<');
      printf("The result is- %d\n",result );
   
   //Test for Shift Right
-     math(60,1,'>');
+     math(42,1,'>');
      printf("The result is- %d\n",result );
   
   //Test for Bitwise Xor
-     math(60,13,'^');
+     math(23,24,'^');
      printf("The result is- %d\n",result );
   
    //Test for Bitwise not 
-     math(60,13,'~');
+     math(10,13,'~');
      printf("The result is- %d\n",result );
   
  }
@@ -166,4 +166,18 @@
         break;
      }
  }
- 
+
+ /********************* Test result ***************/
+/*$gcc -o main *.c
+$main
+The result is- 80  ** (70+1)
+The result is- 23  ** (40-17)
+The result is- 6   ** (3*2)
+The result is- 8   ** (32/4)
+The result is- 0   ** (2*0)
+The result is- 5   ** (4|1)
+The result is- 3   ** (43%8)
+The result is- 12  ** (6<1)
+The result is- 21  ** (42>1)
+The result is- 15  ** (23^24)
+The result is- -11  ** (~10)*/
