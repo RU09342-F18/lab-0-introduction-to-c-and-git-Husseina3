@@ -1,5 +1,6 @@
 # Lab 0: Introduction to C Programming and Git.
 This lab is mainly dedicated for a quick review on C programming and a good introduction to git (for some of us). In this assigment the following 11 different math operations were implemented. 
+
              * + Add 
              * - Subtract 
              * * Multiply 
@@ -11,6 +12,7 @@ This lab is mainly dedicated for a quick review on C programming and a good intr
              * | Bitwise OR
              * ^ Bitwise XOR 
              * ~ Bitwise Inverse 
+             
 ## Operations and their functions
 
 |Operator  |  Function  | Use    |
